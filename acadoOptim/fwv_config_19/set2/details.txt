@@ -1,0 +1,10 @@
+
+
+ time :   0.284 secs
+
+Norm of linear acc= 4.430381 
+Norm of angular acc= 7.765744 
+Final position cost= 2.300995 
+Iterations= 12 
+Start= 5.000000 130.000000 30.000000 -1.413717 
+Goal= 120.000000 40.000000 10.000000 

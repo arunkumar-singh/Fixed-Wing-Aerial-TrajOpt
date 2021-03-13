@@ -1,0 +1,9 @@
+time :   1.01 secs
+
+Iteration= 10Planning Time= 13.700000 
+Norm of acc= 11.216304 
+Norm of phidot= 5.230215 
+Norm of gammadot= 4.345376 
+Final position cost= 11.954145 
+Start= 5.000000 130.000000 30.000000 -0.628319 
+Goal= 120.000000 40.000000 10.000000 
