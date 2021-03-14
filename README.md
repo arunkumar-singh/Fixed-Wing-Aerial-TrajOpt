@@ -13,7 +13,7 @@ Codes will start appearing here from Monday 14th March
 _Note: Only for the first time do_ ```make clean all``` _otherwise just_ ```make```
  
 ### Configuration taken for Comparison     
-|Config No. |x | y | z | psi | xg | yg | zg | planning time | steps | 
+|Config No. |x | y | z | psi (\*pi) | xg | yg | zg | planning time | steps | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |  
 |1|	5	|130|	30	|0|	120|	40|	10|	13.8| 50| 
 |2|	5|	130|	30|	0|	120|	40|	10|	13.8|100|
