@@ -38,8 +38,13 @@ _Note: Only for the first time do_ ```make clean all``` _otherwise just_ ```make
 
 For each planning time and steps acado code was generated.
 
-
-
+#### Generating ACADO code
+* Install [ACADO Toolkit](https://acado.github.io/install_linux.html)
+* Copy ```getting_started.cpp``` from ```acadoOptim``` folder and paste it to ```/ACADOtoolkit/examples/code_generation/mpc_mhe```.
+* Edit ```getting_started.cpp``` for desired settings (steps, planning time).
+* Navigate to ```ACADOtoolkit/build``` and run ```make code_generation_getting_started```.
+* Finally run ```./code_generation_getting_started``` in folder ```/ACADOtoolkit/examples/code_generation/mpc_mhe```.
+ 
 
 
 
