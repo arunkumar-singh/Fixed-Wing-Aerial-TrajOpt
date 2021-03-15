@@ -102,7 +102,7 @@ int main()
 	x_init = map["configuration"]["x_init"].as<float>();
  	y_init = map["configuration"]["y_init"].as<float>();
 	z_init = map["configuration"]["z_init"].as<float>();
-	psi_init = map["configuration"]["psi_init"].as<float>();
+	psi_init = map["configuration"]["psi_init"].as<float>() * pi;
 	
 	x_d = map["configuration"]["x_goal"].as<float>();
 	y_d = map["configuration"]["y_goal"].as<float>();
