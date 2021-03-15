@@ -7,7 +7,7 @@ Codes will start appearing here from Monday 14th March
 * Navigate to the ```ourOptimizer``` folder and edit configuration details in ```config.yaml``` file.
 * In ```config.yaml``` file, entering ```psi_init``` as ```0.2``` indicates ```0.2pi``` in main code.
 * Run the following command ```g++ main.cpp FWV_optim.cpp $(pkg-config --cflags --libs yaml-cpp) -o test -O2``` followed by ```./test```  
-
+How to change steps (Edit variables ```num``` in ```main.cpp``` file.
 
 ### Running generated ACADO code
 * Navigate to any of the config folder and run ```make clean all``` followed by ```./test```.   
