@@ -108,6 +108,10 @@ int main()
 	y_d = map["configuration"]["y_goal"].as<float>();
 	z_d = map["configuration"]["z_goal"].as<float>();
 
+    vx_init = v_init * cos(psi_init) * cos(gamma_init);
+    vy_init = v_init * sin(psi_init) * cos(gamma_init);
+    vz_init = -v_init * sin(gamma_init);
+
     ArrayXXf vx_obs(num_obs, 1);
     ArrayXXf vy_obs(num_obs, 1);
     ArrayXXf vz_obs(num_obs, 1);
@@ -118,7 +122,7 @@ int main()
 
     clock_t start, end;
 
-	t = t_fin / num;
+    t = t_fin / num;
     start = clock();
     compute_bernstein(t_fin);
     initObs(vx_obs, vy_obs, vz_obs, t);
