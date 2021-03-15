@@ -1,9 +1,0 @@
-configuration :
- steps : 50
- x_init : 5
- y_init : 130
- z_init : 30
- psi_init : 0.0
- x_goal : 120
- y_goal : 40
- z_goal : 10

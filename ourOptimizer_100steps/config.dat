@@ -1,0 +1,14 @@
+x_init, y_init, z_init, psi_init = 5 130 30 0
+
+x_g, y_g, z_g, steps= 120 40 10 100
+
+Norm of linear acceleration = 5.22561
+
+Norm of angular (phidot) acceleration = 0.233504
+
+TIME TAKEN in secs = 0.13577
+
+Final Position Cost = 2.177
+
+Planning time in secs = 13.846
+
