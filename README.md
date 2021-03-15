@@ -5,6 +5,7 @@ Codes will start appearing here from Monday 14th March
 
 ### Running our custom optimizer
 * Navigate to the ```ourOptimizer``` folder and edit configuration details in ```config.yaml``` file.
+* In ```config.yaml``` file, entering ```psi_init``` as ```0.2``` indicates ```0.2pi```.
 * Run the following command ```g++ main.cpp FWV_optim.cpp $(pkg-config --cflags --libs yaml-cpp) -o test -O2``` followed by ```./test```  
 
 
