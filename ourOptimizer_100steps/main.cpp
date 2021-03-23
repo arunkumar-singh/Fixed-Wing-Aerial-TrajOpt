@@ -336,11 +336,7 @@ int main()
 
 
 
-    check_intersection(sol_xyz.a, sol_xyz.b, sol_xyz.c);
-	if(collisionFlag)
-		cout << "Collision!! \n \n";
-	else
-		cout << "No Collision!! \n \n";
+    //check_intersection(sol_xyz.a, sol_xyz.b, sol_xyz.c);
 
     outdata.open("data2.dat");
     outdata << x_init << " " << y_init << " " << z_init << endl;
