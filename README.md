@@ -7,7 +7,7 @@ Codes will start appearing here from Monday 14th March
 * Navigate to the ```ourOptimizer_50steps``` or ```ourOptimizer_100steps``` folder and edit configuration details in ```config.yaml``` file.
 * In ```config.yaml``` file, entering ```psi_init``` as ```0.2``` indicates ```0.2pi``` in main code.
 * Run the following command ```g++ main.cpp FWV_optim.cpp $(pkg-config --cflags --libs yaml-cpp) -o test -O2``` followed by ```./test```    
-  
+* To visualize, run ```gnuplot graph.plt```  
 How to change steps (Edit global variable ```num``` in ```main.cpp``` file)
 
 ### Running generated ACADO code
